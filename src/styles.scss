@@ -7,6 +7,7 @@ $lt-gray: #ddd;
 $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
+$background-moredark: #4527A0;
 $primary-color-dark:   #512DA8;
 $primary-color:        #673AB7;
 $primary-color-light:  #D1C4E9;
@@ -15,6 +16,7 @@ $accent-color:         #FFC107;
 $primary-text-color:   #212121;
 $secondary-text-color: #757575;
 $divider-color:        #BDBDBD;
+
 
 @mixin zero-margin($pad-up-down, $pad-left-right) {
     margin: 0px auto;
@@ -44,4 +46,8 @@ body {
 
 .flex-spacer {
   flex: 1 1 auto;
+}
+
+.active {
+  background-color: $background-moredark;
 }
