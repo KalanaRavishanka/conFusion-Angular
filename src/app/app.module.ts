@@ -54,5 +54,8 @@ import { LeaderService } from './services/leader.service';
     LeaderService
   ],
   bootstrap: [AppComponent],
+  entryComponents: [
+    LoginComponent
+  ],
 })
 export class AppModule {}
